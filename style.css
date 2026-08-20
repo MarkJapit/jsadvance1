@@ -1,0 +1,67 @@
+body{
+    font-family: Arial,sans-serif;
+    margin: 20px;;
+}
+
+h1{
+    font-size: 32px;
+}
+
+.input-area{
+    margin-bottom: 15px;
+}
+
+input[type="number"]{
+    width: 150px;
+    padding: 5px;
+}
+
+button,
+select{
+    padding: 4px 8px;
+    margin: 2px;
+    cursor: pointer;
+}
+
+fieldset{
+    min-height: 150px;
+    margin-top: 15px;
+}
+
+#numberList{
+    margin-top: 5px;
+}
+
+.number-row{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 7px 0;
+}
+
+.number {
+    width: 55px;
+}
+
+.type {
+    width: 65px;
+    font-weight: bold;
+}
+
+.even{
+    color: green;
+}
+
+.odd {
+    color: blue;
+}
+
+.result {
+    margin-top: 15px;
+    font-weight: bold;
+    line-height: 1.8;
+}
+
+.bottom-controls {
+    margin-top: 10px;
+}
